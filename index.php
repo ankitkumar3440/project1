@@ -2,10 +2,11 @@
 $insert=false;
 if(isset($_POST['name'])){
  //set connection variable//
-$server="localhost";
-$username="root";
-$password="";
-$database="trip";
+$server="ec2-18-233-104-114.compute-1.amazonaws.com";
+$username="vmpdxhzcexafrp";
+$password="51b81b3c34fc0c47c43ec4f0f2d581398a79b2520b5f2ff893c497cbc9c91893";
+$database="
+dcr5ease1la214";
 //check for connection sucess//
 $con=mysqli_connect($server,$username,$password,$database);
 if(!$con){
